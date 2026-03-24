@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframe</title>
 </head>
+    <style>
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        iframe#tela {
+            width: 80vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
 <body>
     <h1>Faça uma escolha</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga molestiae debitis voluptatum, aliquid delectus praesentium voluptates alias distinctio temporibus libero, veritatis, est voluptas placeat. Quod officia corporis rem reprehenderit consequatur?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="#">Segunda página</a></li>
+        <li><a href="#">Terceira página</a></li>
+    </ul>
+
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta, magni eligendi incidunt earum amet provident cupiditate mollitia ex animi nemo sequi sit sed, nobis magnam! Eligendi quidem provident explicabo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut aspernatur a porro molestias, iste ab repellat libero accusamus amet iure eaque id quaerat! Error ducimus veritatis ab voluptate minus id.</p>
+
+    <iframe id="tela" nome="frame" src="#">
+        <p>Infelizmente seu navegador não é compátivel</p>
+    </iframe>
 </body>
 </html>
