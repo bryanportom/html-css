@@ -5,9 +5,9 @@
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
-    --cor2: #3ddc84;
+    --cor2: black;
     --cor3: #2fa866;
-    --cor4: #1a5c37;
+    --cor4: black;
     --cor5: #063d1e;
 }
 
@@ -28,7 +28,7 @@ header {
 
 header > h1 {
     font-size: 3em;
-    color: white;
+    color: pink;
     padding: 5px;
     margin-top: 50px;
     text-align: center;
@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 main h1 {
-    background-image: linear-gradient(to right, var(--cor3), var(--cor0));
+    background-image: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
     margin-top: 10px;
@@ -80,9 +80,10 @@ main p {
 }
 
 footer p {
-    background-color: var(--cor3);
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     margin-top: 20px;
     text-align: center;
+    color: white;
 }
