@@ -79,6 +79,10 @@ main p {
     padding-top: 10px;
 }
 
+article > p {
+    padding: 10px;
+}
+
 footer p {
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
